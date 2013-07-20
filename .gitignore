@@ -2,6 +2,8 @@
 ## Eclipse
 #################
 
+
+src/models/AppConfig.as
 *.pydevproject
 .project
 .metadata
