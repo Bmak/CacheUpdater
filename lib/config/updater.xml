@@ -1,0 +1,143 @@
+<configuration>
+  <servers>
+    <server>
+      <ip>192.168.0.127</ip>
+      <info>Основной сервер</info>
+    </server>
+  </servers>
+  <ports>8431</ports>
+  <packets>
+    <packet>
+      <title>Обновление кэша по структурным объектам</title>
+      <id>1</id>
+      <messages>
+        <message>
+          <title>str</title>
+          <text>structferma</text>
+        </message>
+      </messages>
+      <info>После загрузки и парсинга данных структурного конфига, эти параметры хранятся в оперативной памяти. Нередко возникает необходимость обновить данные по структурным объектам не прибегая к перезапуску сервера.</info>
+    </packet>
+    <packet>
+      <title>Обновление кэша по интерактивным объектам</title>
+      <id>2</id>
+      <messages>
+        <message>
+          <title>int</title>
+          <text>interactferma</text>
+        </message>
+      </messages>
+      <info>info</info>
+    </packet>
+    <packet>
+      <title>Обновление кэша по игровой карте</title>
+      <id>3</id>
+      <messages>
+        <message>
+          <title>block</title>
+          <text>blockmapferma</text>
+        </message>
+      </messages>
+      <info>info</info>
+    </packet>
+    <packet>
+      <title>Обновление кэша по модели крафтинга</title>
+      <id>4</id>
+      <messages>
+        <message>
+          <title>craft</title>
+          <text>craftingferma</text>
+        </message>
+      </messages>
+      <info>info</info>
+    </packet>
+    <packet>
+      <title>Обновление кэша по элементам</title>
+      <id>5</id>
+      <messages>
+        <message>
+          <title>element</title>
+          <text>elementferma</text>
+        </message>
+      </messages>
+      <info>info</info>
+    </packet>
+    <packet>
+      <title>Обновление кэша по списку актуальных квестов</title>
+      <id>6</id>
+      <messages>
+        <message>
+          <title>title 0</title>
+          <text>message</text>
+        </message>
+      </messages>
+      <info>info</info>
+    </packet>
+    <packet>
+      <title>Обновление кэша по списку рандомных квестов</title>
+      <id>7</id>
+      <messages>
+        <message>
+          <title>title 0</title>
+          <text>new message</text>
+        </message>
+      </messages>
+      <info>info</info>
+    </packet>
+    <packet>
+      <title>Обновление кэша по конкретной линейке квестов</title>
+      <id>8</id>
+      <messages>
+        <message>
+          <title>title 0</title>
+          <text>new message</text>
+        </message>
+      </messages>
+      <info>info</info>
+    </packet>
+    <packet>
+      <title>Обновление кэша по магазину</title>
+      <id>9</id>
+      <messages>
+        <message>
+          <title>shop</title>
+          <text>shopferma</text>
+        </message>
+      </messages>
+      <info>info</info>
+    </packet>
+    <packet>
+      <title>Обновление кэша по модели персонажа</title>
+      <id>10</id>
+      <messages>
+        <message>
+          <title>unit</title>
+          <text>unitferma</text>
+        </message>
+      </messages>
+      <info>info</info>
+    </packet>
+    <packet>
+      <title>Обновление карты компьютерного персонажа</title>
+      <id>11</id>
+      <messages>
+        <message>
+          <title>title 0</title>
+          <text>new message</text>
+        </message>
+      </messages>
+      <info>info</info>
+    </packet>
+    <packet>
+      <title>Обновление конфигурации по игровым константам</title>
+      <id>12</id>
+      <messages>
+        <message>
+          <title>constferma</title>
+          <text>constferma</text>
+        </message>
+      </messages>
+      <info>info</info>
+    </packet>
+  </packets>
+</configuration>
